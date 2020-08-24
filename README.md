@@ -1,6 +1,6 @@
 
 
-## Simple React App - To Do And To Read List
+## Simple React App - Responsive To Do And To Read List 
 
 ## Demo (Live Interactive)
 
