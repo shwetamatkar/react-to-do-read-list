@@ -29,7 +29,7 @@
     ">0.2%",
     "not dead",
     "not ie <= 11",
-    "not op_mini all"
+    "not op_mini all" 
   ],
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
