@@ -1,32 +1,55 @@
-.App {
-  text-align: center;
+
+header {
+  letter-spacing: 3px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+
+.btn-outline-light {
+  color: #000!important;
+  border-width: 3px;
+  border-color: #ffffff!important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-grey{
+  background-color: #d5d5d5;
+}
+.card-icon-wrap{
+  min-height: 50px;
+}
+.read-card-container{
+  height:300px;
+  margin-bottom:8rem!important;
 }
 
-.App-link {
-  color: #61dafb;
+.read-card-img{
+  height: 300px;
+  width: 100%;
+  background-color: #464646;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.read-card-no{
+  height: 55px;
+}
+.read-card-first{
+  width: 95%;
+    z-index: 1;
+}
+.read-card-second{
+  margin-top: -220px;
+  margin-left: 15%;
+  z-index: 0;
+  height: 100%;
+}
+.bg-gradient{
+  background: linear-gradient(90deg, rgb(209 245 195) 30%, rgb(144 238 241) 100%);
+  -webkit-background: linear-gradient(90deg, rgb(209 245 195) 30%, rgb(144 238 241) 100%);
+  -moz-background: linear-gradient(90deg, rgb(209 245 195) 30%, rgb(144 238 241) 100%);
+}
+.swipeable-list{
+  min-height: 250px;
+}
+.swipeable-list-item__content{
+  background-color:transparent!important;
 }
