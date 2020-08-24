@@ -10,8 +10,8 @@ class ToDoList extends Component {
             if(todo.id !== id) return todo;
           });
         this.props.setToDos(newTodoList);
-        
-        return console.log(id+":completed");
+        console.log(id+":completed");
+        return id;
     }
     
     render() {
