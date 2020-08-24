@@ -6,12 +6,13 @@ import {SwipeableList} from '@sandstreamdev/react-swipeable-list';
 class ToDoList extends Component {
    
     handleDelete = (id) => {
-        const newTodoList = this.props.todos.filter((todo) => {
-            if(todo.id !== id) return todo;
+        const newTodoList = this.props.todos.filter((todo) => { 
+            return todo.id !== id;
           });
+
+          
         this.props.setToDos(newTodoList);
         console.log(id+":completed");
-        return id;
     }
     
     render() {
