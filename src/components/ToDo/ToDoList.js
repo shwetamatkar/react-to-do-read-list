@@ -4,17 +4,14 @@ import {SwipeableList} from '@sandstreamdev/react-swipeable-list';
 
 
 class ToDoList extends Component {
-    constructor(props)
-    {
-        super(props);
-       
-    }
+   
     handleDelete = (id) => {
         const newTodoList = this.props.todos.filter((todo) => {
             if(todo.id !== id) return todo;
           });
         this.props.setToDos(newTodoList);
-        console.log(id+":completed");
+        
+        return console.log(id+":completed");
     }
     
     render() {

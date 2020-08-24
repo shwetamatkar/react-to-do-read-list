@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import Icon from '../Icon.js';
 import {
-    ActionAnimations,
     SwipeableListItem
 } from '@sandstreamdev/react-swipeable-list';
 
